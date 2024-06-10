@@ -3,19 +3,22 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="flex space-x-10 items-center">
+    <div className="flex space-x-5 items-center">
       <div>
         <Image
-          src="/profile.png"
+          src="/ig.jpeg"
           alt="profile"
           title="profile"
-          height={150}
-          width={150}
+          height={80}
+          width={80}
+          className="rounded-full"
         />
       </div>
       <div className="leading-relaxed">
-        <p className="text-2xl">Robin</p>
-        <p>Software developer, electronics and welder</p>
+        <p className="text-lg">Robin</p>
+        <p className="text-sm text-neutral-400">
+          Software developer, electronics and welder
+        </p>
       </div>
     </div>
   );

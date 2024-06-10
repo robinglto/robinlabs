@@ -5,12 +5,11 @@ import Nav from "./ui/Nav";
 
 export default function Home() {
   return (
-    // <div className="flex flex-col justify-center items-center py-20">
-    <div className=" max-w-3xl py-20 mx-auto md:px-0 px-10">
+    <div className=" max-w-xl py-20 mx-auto md:px-0 px-10">
       <About />
       <Nav />
       <AboutT />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }

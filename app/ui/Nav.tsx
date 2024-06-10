@@ -8,7 +8,7 @@ export default function Nav() {
   const route = usePathname();
   return (
     <div>
-      <ul className="flex justify-start space-x-4 py-10 text-lg">
+      <ul className="flex justify-start space-x-4 py-10 text-sm">
         <li>
           <Link
             href="/"
@@ -23,7 +23,9 @@ export default function Nav() {
           <Link
             href="/blog"
             className={`${
-              route === "/blog" ? "underline underline-offset-[16px]" : ""
+              route !== "/" && route !== "/tools" && route !== "/projects"
+                ? "underline underline-offset-[16px]"
+                : ""
             }`}
           >
             Blog

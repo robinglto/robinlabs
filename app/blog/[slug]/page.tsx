@@ -14,7 +14,7 @@ export default async function BlogPage({
   return (
     <main className=" max-w-3xl py-20 mx-auto md:px-0 px-10">
       <Nav />
-      <article className="prose prose-neutral	">{blog.content}</article>
+      <article className="prose prose-neutral text-sm	">{blog.content}</article>
     </main>
   );
 }
