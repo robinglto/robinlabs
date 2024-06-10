@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Tools() {
   return (
     <div>
-      <div className="grid grid-cols-3 gap-10 py-20">
+      <div className="grid md:grid-cols-3 grid-cols-2 gap-10 py-20">
         {technologies.map((technology) => (
           <div key={technology.name} className="flex items-center space-x-4">
             <div>
