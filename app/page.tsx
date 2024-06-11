@@ -9,7 +9,7 @@ export default function Home() {
       <About />
       <Nav />
       <AboutT />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 }

@@ -13,7 +13,7 @@ export default function Nav() {
           <Link
             href="/"
             className={`${
-              route === "/" ? "underline underline-offset-[16px]" : ""
+              route === "/" ? "underline underline-offset-[14px]" : ""
             }`}
           >
             About
@@ -24,7 +24,7 @@ export default function Nav() {
             href="/blog"
             className={`${
               route !== "/" && route !== "/tools" && route !== "/projects"
-                ? "underline underline-offset-[16px]"
+                ? "underline underline-offset-[14px]"
                 : ""
             }`}
           >
@@ -35,7 +35,7 @@ export default function Nav() {
           <Link
             href="/tools"
             className={`${
-              route === "/tools" ? "underline underline-offset-[16px]" : ""
+              route === "/tools" ? "underline underline-offset-[14px]" : ""
             }`}
           >
             Tools
@@ -45,7 +45,7 @@ export default function Nav() {
           <Link
             href="/projects"
             className={`${
-              route === "/projects" ? "underline underline-offset-[16px]" : ""
+              route === "/projects" ? "underline underline-offset-[14px]" : ""
             }`}
           >
             Projects
