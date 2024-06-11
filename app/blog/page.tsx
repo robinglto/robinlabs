@@ -1,6 +1,12 @@
 import Link from "next/link";
 import { getBlogs } from "./fetchers";
 import Nav from "../ui/Nav";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Robin - Blog",
+  description: "A collection of my thoughts",
+};
 
 export default async function BlogsPage() {
   const blogs = await getBlogs();

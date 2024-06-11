@@ -1,6 +1,13 @@
 import React from "react";
 import Nav from "../ui/Nav";
 import Tools from "../ui/Tools";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Robin - Tools",
+  description:
+    "A comprehensive list of the resources and utilities I utilize to streamline both my professional endeavors and personal affairs.",
+};
 
 export default function page() {
   return (
