@@ -29,7 +29,7 @@ const projects: Project[] = [
         other content. It is built with Next.js, Tailwind CSS, and MDX.
       `,
     image: "/projects/portafolio-v0/dark.png",
-    url: "https://robinglto0.vercel.app/",
+    url: "https://robinlabs-v0.vercel.app/",
   },
 ];
 

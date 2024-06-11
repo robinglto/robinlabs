@@ -16,14 +16,16 @@ export default async function BlogsPage() {
       {blogs.map((blog, i) => (
         <article key={i} className="py-10">
           <Link href={`/blog/${blog.slug}`}>
-            <p className="font-semibold pb-3 text-sm">
+            <p className="font-semibold pb-3 text-sm text-white dark:text-white">
               {blog.frontmatter.title}
             </p>
-            <p className="leading-normal text-xs">
+            <p className="leading-normal text-xs text-white dark:text-white">
               {blog.frontmatter.description}
             </p>
             {/* <p>{blog.frontmatter.author}</p> */}
-            <p className="pt-3 text-xs">{blog.frontmatter.publishDate}</p>
+            <p className="pt-3 text-xs text-white dark:text-white">
+              {blog.frontmatter.publishDate}
+            </p>
           </Link>
         </article>
       ))}

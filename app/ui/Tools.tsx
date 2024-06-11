@@ -1,4 +1,4 @@
-import technologies from "../lib/tools";
+import technologies from "../lib/toolsdata";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -17,10 +17,15 @@ export default function Tools() {
             />
           </div>
           <div>
-            <Link href={technology.url} className="text-xs font-semibold">
+            <Link
+              href={technology.url}
+              className="text-xs font-semibold text-white dark:text-white"
+            >
               {technology.name}
             </Link>
-            <p className="text-xs">{technology.type}</p>
+            <p className="text-xs text-white dark:text-white">
+              {technology.type}
+            </p>
           </div>
         </div>
       ))}

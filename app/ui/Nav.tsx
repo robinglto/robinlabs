@@ -8,12 +8,12 @@ export default function Nav() {
   const route = usePathname();
   return (
     <div>
-      <ul className="flex justify-start space-x-4 py-10 text-sm">
+      <ul className="flex justify-start space-x-4 py-10 text-sm text-white dark:text-white">
         <li>
           <Link
             href="/"
             className={`${
-              route === "/" ? "underline underline-offset-[14px]" : ""
+              route === "/" ? "underline underline-offset-[14px] " : ""
             }`}
           >
             About

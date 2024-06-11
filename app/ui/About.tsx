@@ -15,7 +15,7 @@ export default function About() {
         />
       </div>
       <div className="leading-relaxed">
-        <p className="text-lg">Robin</p>
+        <p className="text-lg text-white dark:text-white">Robin</p>
         <p className="text-sm text-neutral-400">
           Software developer, electronics and welder
         </p>
