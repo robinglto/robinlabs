@@ -8,7 +8,7 @@ export default function Projects() {
     <div className="space-y-12">
       {projects.map((project, index) => (
         <Link key={index} href={project.url}>
-          <div className="space-y-3 my-6 pb-6 border-b border-neutral-700">
+          <div className="space-y-3 my-6 p-4 md:transition-transform md:duration-200 md:ease-in-out md:transform md:hover:shadow-md md:hover:rounded-xl md:hover:bg-neutral-900/80">
             <p className="text-xl font-bold text-white">{project.title}</p>
             <p className="text-neutral-400 text-xs">{project.description}</p>
             <Image
