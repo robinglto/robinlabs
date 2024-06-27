@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   description: "A collection of my thoughts",
 };
 
+//fix design
 export default async function BlogsPage() {
   const blogs = await getBlogs();
   return (
